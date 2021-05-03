@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sidenav{
+		height: 100%;
+		width: 250px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #0909FF;
+		overflow-x: hidden;
+		padding: 10px 10px 10px 10px;
+	}	
+	
+	.sidenav a{
+		padding: 20px 5px 20px 5px;
+		text-decoration: none;
+		font-size: 20px;
+		color: aliceblue;
+		display: block;
+	}
+	
+	.sidenav a:hover{
+		color: black;
+		background-color: powderblue;
+		padding: 20px 5px 5px 20px;
+		font-display: block;
+		border-radius: 15px;
+	}
+
+	.next{
+		margin-left: 250px;
+	}
+	
+	.pics{
+		padding: 10px 10px 10px 10px;
+	}
+	
+	.mainbg{
+		float: right;
+		top: 0;
+		right: 0;
+	}
+
+	.body{
+		background-color: #D6F2FC;
+	}
+	
+	.subcontent{
+		float: right;
+		padding: 50px;
+	}
+
+	.subcontent img{
+		border-radius: 15px;
+		box-shadow: 10px 10px 3px 3px #030303;
+	}
+	
+	.subcontent2{
+		float: left;
+		padding: 50px;
+	}
+
+	.subcontent2 img{
+		border-radius: 15px;
+		box-shadow: 10px 10px 3px 3px #030303;
+	}
+	
+	.text{
+		text-align: left;
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		float: left;
+		font-size: 20px;
+	}
+	
+	.main{
+		margin-left: 20px;
+		padding: 10px;
+	}
+	
+	hr.uno{
+		border-radius: 10px solid white;
+	}
+	
+	hr.dos{
+		border-bottom-style: dashed;
+		border-radius: 10px blue;
+	}
+	
+	hr.tres{
+		border-style: none;
+		border-radius: 10px;
+	}
+
+	.foot p{
+		float: right;
+	}
+
+	.tebol{
+		
+	}
+
+	
+
+
+	/*CSS for enroll.html*/
+	.enrol{
+		background-color: #D6F2FC;
+	}
+
+	.title{
+		font-size: 35px;
+	}
+
+	.sub{
+		background-color: floralwhite;
+	}
+
+	.porm{
+		float: left;
+		margin-left: 350px;
+	}
+
+	.porm td.title{
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	}
+
+	.porm td.sub{
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	}
+
+	
+
+
+	/*CSS for photos.html*/
+	.potos{
+		float: left;
+		margin-left: 325px;
+	}
+
+	.ed{
+		font-size: 25px;
+		background-color: #7CACFF;
+		text-align: right;
+		margin-right: 40px;
+	}
+
+	.mainputo{
+		margin-left: 280px;
+	}
+
+	.gar{
+		background-color: #D6F2FC;
+	}
+	
+	.pix:hover{
+		border-radius: 50px;
+		
+	}
+
+
+	/*CSS for courses.html*/
+	.texto{
+		text-align: left;
+		font-family: Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		float: left;
+		font-size: 20px;
+		margin-left: 50px;
+		width: 300px;
+	}
+
+	.texto2{
+		text-align: left;
+		font-family: Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		float: left;
+		font-size: 20px;
+		width: 450px;
+	}
+
+	.texto p{
+		margin-left: 50px;
+	}
+
+	.texto2 p{
+		margin-left: 50px;
+	}
+
+	.dos{
+		margin-left: 50px;
+	}
+
+
+	/*CSS for activities.html*/
+
+.acts{
+	margin-left: 50px;
+}
+
+	/*Responsive layout*/
+
+	@media only screen and (max-width:320px) {
+  		.sidenav, .next, .text{
+    		width: 100%;
+ 	 	}
+	}
+	
+	@media only screen and (max-width:760px) {
+  		.midone, .midtwo, .midthree, .topleft, .topright{
+    		width: 100%;
+ 	 	}
+	}
+	
+	@media only screen and (max-width:760px) {
+		.botone, .bottwo, .botthree, .botfour{
+			width: 50%;
+		}
+	}
